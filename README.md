@@ -183,3 +183,8 @@ is_kendra            = false
 kb_model_id          = "amazon.titan-embed-text-v2:0"
 kendra_index_edition = "DEVELOPER_EDITION"
 ```
+
+
+### NOTE
+
+There is also an `extract.tf`, for use cases where the output of s3 bucket name and AWS Bedrock Knowledge Base ID are needed, and put to local file to automation purposes.
