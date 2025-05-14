@@ -172,7 +172,7 @@ terraform {
 
 ## For TF Vars
 
-The main inputs needed for this project are the following tfvars (The values seen here the the default values of the variables):
+The main inputs needed for this project are the following tfvars (The values seen here are the default values of the variables):
 
 ```bash
 env_name             = "test"
