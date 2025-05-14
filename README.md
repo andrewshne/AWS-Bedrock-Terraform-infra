@@ -187,4 +187,6 @@ kendra_index_edition = "DEVELOPER_EDITION"
 
 ### NOTE
 
-There is also an `extract.tf`, for use cases where the output of s3 bucket name and AWS Bedrock Knowledge Base ID are needed, and put to local file to automation purposes.
+* There is also an `extract.tf`, for use cases where the output of s3 bucket name and AWS Bedrock Knowledge Base ID are needed, and put to local file to automation purposes.
+
+* Make sure that the retriever is ready with data synced, for the scope of this project data will not be provided, this is up to whoever clones this repo and wish to run this solution, to BYOD(Bring Your Own Data).
